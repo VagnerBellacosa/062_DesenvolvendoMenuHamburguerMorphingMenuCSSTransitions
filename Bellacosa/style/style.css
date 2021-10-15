@@ -217,7 +217,7 @@ a:hover {
     height: 300px;
     width: 400px;
     margin: 3rem 0 0 0;
-    background-image: url('./room.jpg');
+    background-image: url('../image/johnnyCasteway001.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -335,4 +335,15 @@ a:hover {
         height: 190px;
         width: 190px;
     }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    margin-top: 2rem;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
