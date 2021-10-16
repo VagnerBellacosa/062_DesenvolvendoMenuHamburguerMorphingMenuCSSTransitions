@@ -341,6 +341,55 @@ a:hover {
     font-size: 14px;
 }
 
+
+.card1:hover {
+    filter: unset;
+}
+
+.card1:hover > .card-wrapper::before {
+    height: 250px;
+    width: 350px;
+    opacity: 1;
+}
+
+.card1:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
+.card2:hover {
+    filter: unset;
+}
+
+.card2:hover > .card-wrapper::before {
+    height: 250px;
+    width: 350px;
+    opacity: 1;
+}
+
+.card2:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
+.card3:hover {
+    filter: unset;
+}
+
+.card3:hover > .card-wrapper::before {
+    height: 250px;
+    width: 350px;
+    opacity: 1;
+}
+
+.card3:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
 /* FOOTER */
 
 .footer {
